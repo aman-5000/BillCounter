@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BillCounter</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">BillCounter</string>
+    <string name="hint_item">What did you buy ?</string>
+    <string name="hint_money">How much did you spend?</string>
+    <string name="submit_text">Submit</string>
+    <string name="delete_text">Delete Item</string>
+    <string name="share_expenditure">Share</string>
+    <string name="money_total_text">Total Money Spent:</string>
+    <string name="dollar_text">$</string>
+    <string name="items_num">Items Bought : </string>
+    <string name="title_activity_display_items">DisplayItemsActivity</string>
+    <string name="title_activity_item_detail">ItemDetailActivity</string>
+    <string name="delete_item">Delete Item</string>
+</resources>

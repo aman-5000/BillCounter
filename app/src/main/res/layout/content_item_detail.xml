@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#8bc34a"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_item_detail"
+    tools:context="billcounter.dk.com.billcounter.ItemDetailActivity">
+
+    <ImageView
+        android:layout_width="180dp"
+        android:src="@drawable/money"
+        android:id="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_height="180dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:background="@drawable/row_bg"
+        android:orientation="vertical"
+        android:id="@+id/layout"
+        android:layout_below="@id/logo"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/detsItemName"
+            android:text="dkdaks"
+            android:textSize="19sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/detsMoneyTitle"
+            android:text="Dollars :"
+            android:textSize="18sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="18dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/detsMoneyValue"
+            android:text="500"
+            android:textSize="18sp"
+            android:layout_marginTop="19dp"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/detsDateText"
+            android:textStyle="italic"
+            android:textSize="14sp"
+            android:layout_marginTop="14dp"
+            android:text="bought on :"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/deleteButton"
+            android:text="Delete"
+            android:layout_marginTop="3dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/detsShareButton"
+            android:text="@string/share_expenditure"
+            android:layout_gravity="right"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/circle"
+            android:layout_width="65dp"
+            android:layout_height="65dp" />
+
+    </LinearLayout>
+</RelativeLayout>
